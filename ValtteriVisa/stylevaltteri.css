@@ -1,0 +1,115 @@
+/* Tekijä: Valtteri Koivistoinen */
+
+
+/* määritellään väri */
+body{
+    background-color: rgb(129, 234, 234)
+}
+
+h2{ 
+    color: rgb(241, 241, 241);
+    background-color: rgb(16, 60, 94);
+    line-height: 1;
+    text-align: center;
+    font-weight: 400;
+    padding: 7px 4px;
+    font-size: 24px;
+
+}
+
+/* muokataan navigointia, että se pysyy keskellä */
+
+.navbar-nav{
+    margin-left: 13cm;
+    background-color:rgb(129, 234, 234);}
+
+.container-fluid{
+    background-color: rgb(129, 234, 234)
+
+}
+
+
+#text1{
+    border: 2px solid darkblue;
+    border-radius: 15px ;
+    padding: 15px ;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(27, 181, 238);
+    font-family: sans-serif;
+    font-size: 150%;
+}
+
+.diva{
+    background-color: rgb(129, 234, 234)
+
+}
+
+.maths{
+      font-size: 150%;
+
+}
+
+/* Asetetaan kuva järkevästi */
+
+.image{
+   align-items: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+   height: 30%;
+}
+
+.content{
+      text-align: center;
+
+}
+
+button{
+    width: 15%;
+    border: 1px solid black;
+    
+}
+
+input{
+    width: 20%;
+    border: 1px solid black;
+}
+
+/* Määritellään jokaiselle tehtävälle samat muokkaukset, jotta näyttävät samalta */
+
+.div2{
+    border: 2px solid darkblue;
+    border-radius: 15px ;
+    padding: 15px ;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(27, 181, 238);
+    
+
+}
+
+.div3{
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgb(27, 181, 238);
+    font-size: 90%;
+    font-family: sans-serif;
+}
+
+.text{
+   font-size: 120%;
+
+}
+
+
+#vastaus{
+    font-size: 120%;
+    
+}
+

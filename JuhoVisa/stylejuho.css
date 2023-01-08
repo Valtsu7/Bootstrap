@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(129, 234, 234);
+
+    
+}
+.navbar-nav{
+    background-color: rgb(129, 234, 234);
+    text-align: center;
+    width: 100%;
+    padding-left: 25%;
+}
+.diva{
+    background-color: rgb(129, 234, 234);
+}
+.h2{
+    background-color: rgb(16, 60, 94);
+    color: white;
+}
+h1{
+    margin: 5px;
+    text-align: center;
+    
+}
+h2{ 
+    color: black;
+    font-size: 1.4em;
+    line-height: 1;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+
+}
+
+.container-fluid{
+    background-color: aquamarine;
+
+}
+
+img{
+    width: 25%;
+    padding-left: 15px;
+    padding-bottom: 30px;
+
+}
+
+.animal{
+    display: inline-block;
+    font-size: 1.6em;
+    text-align: center;
+    font-family: sans-serif;
+    
+
+}
+
+.quest{
+    background-color:rgb(27, 181, 238);
+    display: block;
+    border: 2px solid darkblue;
+    width: 100%;
+    font-family: sans-serif;
+    border: 2px solid darkblue;
+    border-radius: 15px;
+
+    
+}
+#answer{
+    background-color:rgb(27, 181, 238);
+    border: 2px solid darkblue;
+    border-radius: 15px;
+    padding: 30px;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+}
+#kysymykset{
+    padding: 30px;
+}
+#answer1{
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 20px;
+
+}
+#answer2{
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 20px;
+
+}  
+#answer3{
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 20px;
+
+}
+#answer4{
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 20px;
+
+}
+#answer5{
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 20px;
+
+}

@@ -1,0 +1,134 @@
+<!-- Tekijä Juho Leppäkangas-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylejuho.css">
+</head>
+<body>
+    <h2 class="h2">Koululaisten matikka- ja tietovisat</h2>
+    <!--Tästä alkaa bootstrap Navbar koodit-->
+    <div class="diva">
+        <nav class="navbar navbar-expand-lg">
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="../Etusivu/index.html">Etusivu</a>
+                  <a class="nav-link" href="../ValtteriVisa/indexvaltteri.html">Kerto- ja jakolaskut</a>
+                  <a class="nav-link" href="../JuhoVisa/indexjuho.html">Eläinvisa</a>
+                  <a class="nav-link" href="../OttoVisa/indexotto.html">Maantietovisa</a>
+                  <a class="nav-link" href="../OskuVisa/index.html">Tietovisa3</a>
+                  <a class="nav-link" href="../Tietojasivu/indextieto.html">Tietoja</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <!--Tässä loppuu bootstrap Nawbar koodit-->
+
+<!--Luodaan jokaiselle kysymykselle oma div-->
+<!--Jokaisella kysymyksellä on nappi josta tarkistetaan oikea vastaus-->
+<div id="kysymykset">
+            <h1>Valitse mikä eläin on kuvassa</h1>
+            <div class="quest">
+                <h2>1. kysymys</h2>
+
+                <img src="Images/leopard.jpg" alt="">
+                <div class="animal">
+                    <input type="radio" name="kysymys1" id="väärin1">Gepardi
+                    <input type="radio" name="kysymys1" id="oikein1">Leopardi
+                    <input type="radio" name="kysymys1" id="väärin2">Leijona
+                    <input type="radio" name="kysymys1" id="väärin3">Hyeena
+
+                    <button onclick="check1()" id="button1">Tallenna</button>
+                    <div id="answer1"></div>
+                </div>
+            </div>
+<!--Sama kaava mutta namet ja id:t vaihtuvat-->
+        <br>
+            <div class="quest">
+                <h2>2. Kysymys</h2>
+
+                <img src="Images/merikotka.jpg" alt="">
+                <div class="animal">
+                    <input type="radio" name="kysymys2" id="väärin4">Lokki
+                    <input type="radio" name="kysymys2" id="oikein2">Merikotka
+                    <input type="radio" name="kysymys2" id="väärin5">Haukka
+                    <input type="radio" name="kysymys2" id="väärin6">Hiirihaukka
+
+                    <button onclick="check2()" id="button1">Tallenna</button>
+                    <div id="answer2"></div>
+
+                </div>
+            </div>
+<!--Sama kaava mutta namet ja id:t vaihtuvat-->
+        <br>
+            <div class="quest">
+                <h2>3. Kysymys</h2>
+
+                <img src="Images/hirvi.jpg" alt="">
+                <div class="animal">
+                    <input type="radio" name="kysymys3" id="väärin7">peura
+                    <input type="radio" name="kysymys3" id="oikein3">Hirvi
+                    <input type="radio" name="kysymys3" id="väärin8">Poro
+                    <input type="radio" name="kysymys3" id="väärin9">Vesikauris
+
+                    <button onclick="check3()" id="button1">Tallenna</button>
+
+                    <div id="answer3"></div>
+
+                </div>
+            </div>
+        <br>
+<!--Sama kaava mutta namet ja id:t vaihtuvat-->
+
+            <div class="quest">
+                <h2>4. Kysymys</h2>
+
+                <img src="Images/rantakäärme.jpg" alt="">
+                <div class="animal">
+                    <input type="radio" name="kysymys4" id="väärin10">Kyykäärme
+                    <input type="radio" name="kysymys4" id="väärin11">Pyton
+                    <input type="radio" name="kysymys4" id="oikein4">Rantakäärme
+                    <input type="radio" name="kysymys4" id="väärin12">Kalkkarokäärme
+
+                    <button onclick="check4()" id="button1">Tallenna</button>
+                    <div id="answer4"></div>
+
+                </div>
+            </div>
+        <br>
+<!--Sama kaava mutta namet ja id:t vaihtuvat-->
+
+            <div class="quest">
+                <h2>5. Kysymys</h2>
+
+                <img src="Images/västäräkki.jpg" alt="">
+                <div class="animal">
+                    <input type="radio" name="kysymys5" id="väärin13">Laulurastas
+                    <input type="radio" name="kysymys5" id="väärin14">Peippo
+                    <input type="radio" name="kysymys5" id="oikein5">Västäräkki
+                    <input type="radio" name="kysymys5" id="väärin15">Harmaarastas
+
+                    <button onclick="check5()" id="button1">Tallenna</button>
+                    <div id="answer5"></div>
+
+                </div>
+
+            </div>
+        <br>
+<!--Lopuksi vielä nappi jossa lasketaan koko visan vastaukset yhteen ja näytetään-->
+            <div id="answer">
+                <button type="submit" onclick="calculation()" value="checkAnsw">Näytä tulos</button>
+            </div>
+    </div>
+    <script src="scriptjuho.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

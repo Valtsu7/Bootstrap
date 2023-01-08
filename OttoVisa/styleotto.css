@@ -1,0 +1,81 @@
+.divdiv {
+    text-align: center;
+}
+
+
+body{
+    background-color: rgb(129, 234, 234);
+}
+
+.navbar-nav{
+    margin-left: 13cm;
+    background-color:rgb(129, 234, 234);
+    }
+
+h2{ 
+    color: rgb(241, 241, 241);
+    background-color: rgb(16, 60, 94);
+    line-height: 1;
+    text-align: center;
+    font-weight: 400;
+    padding: 7px 4px;
+    font-size: 24px;
+    
+    
+}
+
+.Maantietovisa {
+    background-color: rgb(16, 60, 94);
+    color: white;
+    line-height: 0.5mm;
+    margin-left: 12cm;
+    margin-right: 12cm;
+    padding: 10px;
+}
+
+.kysymykset {
+    background-color: rgb(255, 255, 255);
+    color: rgb(16, 60, 94);
+    margin-right: 12cm;
+    margin-left: 12cm;
+    border-radius: 2cm;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.vastausNappi {
+    color: rgb(255, 255, 255);
+    background-color: #0066A2;
+}
+
+.nappinappi {
+    background: #0066A2;
+    color: rgb(255, 255, 255);
+    border-style: outset;
+    border-radius: 2cm;
+    height: 50px;
+    width: 200px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10cm;
+}
+
+.oikeaVastaus {
+color: green
+}
+
+.vääräVastaus {
+color: red;
+}
+
+.TTulos {
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
+    margin-left: 17cm;
+    margin-right: 17cm;
+}
+
+.diva{
+    margin-top: 0px;
+}
+
+    

@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(129, 234, 234)
+}
+
+h2{ 
+    color: rgb(241, 241, 241);
+    background-color: rgb(16, 60, 94);
+    line-height: 1;
+    text-align: center;
+    font-weight: 400;
+    padding: 7px 4px;
+    font-size: 24px;
+    
+}
+
+.navbar-nav{
+    background-color: rgb(129, 234, 234);
+    margin-left: 12cm;
+    
+    
+    
+
+    
+    }
+.diva{
+    background-color: rgb(129, 234, 234);
+
+
+}
+
+
+#div{
+    border: 2px solid darkblue;
+    border-radius: 15px ;
+    padding: 15px ;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(27, 181, 238);
+    font-family: sans-serif;
+    font-size: 150%;
+}

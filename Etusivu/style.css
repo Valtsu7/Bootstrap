@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(129, 234, 234)
+}
+
+h2{ 
+    color: rgb(241, 241, 241);
+    background-color: rgb(16, 60, 94);
+    line-height: 1;
+    text-align: center;
+    font-weight: 400;
+    padding: 7px 4px;
+    font-size: 24px;
+    
+}
+
+.navbar-nav{
+    background-color: rgb(129, 234, 234);
+    margin-left: 12cm;
+    
+    
+    
+
+    
+    }
+.diva{
+    background-color: rgb(129, 234, 234);
+
+
+}
+    
+p{
+    border: 2px solid rgb(94, 94, 223);
+    border-radius: 15px ;
+    padding: 15px ;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: rgb(235, 246, 247);
+
+
+}
+.kuvake{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    font-size: 1.6em;
+    text-align: center;
+    color: deepskyblue;
+}
+.matikka{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(16, 60, 94);
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+.eläin{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(16, 60, 94);
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+.maantieto{
+    height: 200px;
+    width: 300px;
+
+    background-color: rgb(16, 60, 94);
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+.tieto{
+    height: 200px;
+    width: 300px;
+
+    background-color: rgb(16, 60, 94);
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+
+
+img{
+    width: 80%;
+    height: 80%;
+   
+}
