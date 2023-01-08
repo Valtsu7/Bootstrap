@@ -38,32 +38,44 @@
               koululaisille opiskelua varten. Tarjolla on neljä erilaista
               visaa, joista yksi on matematiikkavisa ja kolme erilaisia
               tietovisoja. </p>
-              <div class="kuvake">
-                <div class="matikka"> 
-                    <a href="../ValtteriVisa/indexvaltteri.html">Matikkavisa</a>
-                    <img id="matkuva"  src="Images/matematiikkakuva.jpg" alt="">
-                    <!--Kuva: pixapay.com-->
-                </div>
+             
+              
+             <!--Tässä alkaa bootstrap carousel koodit-->
 
-                <div class="eläin">
-                <a class="link" href="../JuhoVisa/indexjuho.html">Eläinvisa</a>
-                <img id="ekuva"  src="Images/Papukaija.jpg" alt="">
-                <!--Kuva: pixapay.com-->
+              <div id="karuselli">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-
-                <div class="maantieto">
-                   <a href="../OttoVisa/indexotto.html">Maantietovisa</a>
-                    <img id="makuva" src="Images/Maantiede.jpg" alt="">
-                    <!--Kuva: pixapay.com-->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="../ValtteriVisa/indexvaltteri.html">Matikkavisa</a> <br>
+                    <img src="Images/matematiikkakuva.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <a href="../OttoVisa/indexotto.html">Maantietovisa</a><br>
+                    <img src="Images/Maantiede.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <a href="../JuhoVisa/indexjuho.html">Eläinvisa</a><br>
+                    <img src="Images/Papukaija.jpg" class="d-block w-100" alt="...">
+                  </div>
                 </div>
-
-                <div class="tieto">
-                 <a href="../OskuVisa/index.html">Musiikkivisa</a>
-                  <img id="mukuva" src="Images/piano.jpg" alt="">
-                  <!--Kuva: pixapay.com-->
-                </div>
-
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
+
+                  <!--Tässä loppuu bootstrap carousel koodit-->
+
+            </div> <br><br><br><br><br><br>
 
 
 

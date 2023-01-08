@@ -27,6 +27,25 @@ h2{
 
 
 }
+
+#karuselli{
+
+    width: 40%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{  display: flex;
+    gap: 10px;
+    margin: 10px;
+    font-size: 1.6em;
+    text-align: center;
+    color: red;
+    align-items: center;
+   
+
+}
     
 p{
     border: 2px solid rgb(94, 94, 223);
